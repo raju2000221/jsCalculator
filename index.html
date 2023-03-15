@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Calculator</title>
+</head>
+<body>
+   <main>
+    <section class="">
+  
+        <div class="bg-black w-3/12 mx-auto mt-10 rounded">
+            <div class="pt-8 text-center ">
+                <input id="display" class=" w-11/12 p-4 border-2 border-indigo-700 text-xl rounded"  type="text" readonly> 
+            </div>
+            <section class="mt-10 p-4">
+                <div class="grid  grid-cols-2 gap-24">
+                    <button id="clear" class="bg-red-500  py-2 rounded-full font-semibold text-xl mb-4">Clear</button>
+                    <!-- <button id="onOffBtn" class="bg-green-500	px-4 py-4  rounded-full font-semibold text-xl mb-4">ON/OFF</button> -->
+                </div>
+               
+                <div class="grid  grid-cols-4 gap-4">
+                    <button id="nine" class="bg-indigo-500 py-4 rounded-full font-semibold text-xl">9</button>
+                    <button id="eight" class="bg-indigo-500 py-4 rounded-full font-semibold text-xl">8</button>
+                    <button id="savn" class="bg-indigo-500 py-4 rounded-full font-semibold text-xl">7</button>
+                    <button id="div" class="bg-slate-300 py-4 rounded-full font-semibold text-xl">/</button>
+                    <button id="six" class="bg-indigo-500 py-4 rounded-full font-semibold text-xl">6</button>
+                    <button id="four" class="bg-indigo-500 py-4 rounded-full font-semibold text-xl">5</button>
+                    <button id="five" class="bg-indigo-500 py-4 rounded-full font-semibold text-xl">4</button>
+                    <button  id="mul" class="bg-slate-300		 py-4 rounded-full font-semibold text-xl">*</button>
+                    <button id="three" class="bg-indigo-500 py-4 rounded-full font-semibold text-xl">3</button>
+                    <button id="two" class="bg-indigo-500 py-4 rounded-full font-semibold text-xl">2</button>
+                    <button id="one" class="bg-indigo-500 py-4 rounded-full font-semibold text-xl">1</button>
+                    <button id="add" class="bg-slate-300		 py-4 rounded-full font-semibold text-xl">+</button>
+                    <button id="equl" class="bg-amber-500 py-4 rounded-full font-semibold text-xl">=</button>
+                    <button id="zero" class="bg-indigo-500 py-4 rounded-full font-semibold text-xl">0</button>
+                    <button id="dot" class="bg-indigo-500 py-4 rounded-full font-semibold text-xl">.</button>
+                    <button id="sub" class="bg-slate-300		 py-4 rounded-full font-semibold text-xl">-</button>
+
+                </div>
+            </section>
+        </div>
+      
+
+
+    </section>
+   </main>
+   <script src="on-off.js"></script>
+   <script src="operation.js"></script>
+   <script src="answer.js"></script>
+</body>
+</html>
